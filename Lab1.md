@@ -32,8 +32,7 @@ Step 2. 單擊「+ 新增」後，在必要資訊設置中，請選擇需要配�
 
 Step 3. 在「名稱」中，輸入可辨識的VNET名稱，但需留意此VNET名稱於單一的Azure資源群組中，並須是獨一無二的。<br>
      
-Step 4. 在「區域」中，選擇您的虛擬網路需要建立的資料中心地理位置，但請留意，需與前面建立的ASR保存庫相同資料中心位置，<br>
-        完成後請點選「下一步」配置IP位址與子網路(SubNet)。<br>
+Step 4. 在「區域」中，選擇您的虛擬網路需要建立的資料中心地理位置，但請留意，需與前面建立的ASR保存庫相同資料中心位置，完成後請點選「下一步」配置IP位址與子網路(SubNet)。<br>
    
 ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/lab4.jpg)
      
@@ -41,8 +40,6 @@ Step 5. 在IP位址中，輸入網路範圍，此Lab範例中建立為 10.0.0.0/
 
 ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/lab5.jpg)
 
-Step 6. 在安全性中可選擇是否啟用Azure Bastion、DDoS Protection或Azure Firewall的設置，但由於此Lab聚焦於ASR，<br>
-        
-        </br>因此這邊直接點選「檢閱 + 建立」。<br>
+Step 6. 在安全性中可選擇是否啟用Azure Bastion、DDoS Protection或Azure Firewall的設置，但由於此Lab聚焦於ASR，因此這邊直接點選「檢閱 + 建立」。<br>
 
 開始設置Azure Site Recovery 保存庫與VMWare複寫設定，請[前往 Lab 2-1](https://github.com/MarkChang-Core/ASR-VMWare/edit/main/Lab2-1.md)開始。<br>
