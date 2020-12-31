@@ -42,7 +42,7 @@
 
      ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/lab5.jpg)
 
-5. 在安全性中可選擇是否啟用Azure Bastion、DDoS Protection或Azure Firewall的設置，但由於此Lab聚焦於ASR，<>
+5. 在安全性中可選擇是否啟用Azure Bastion、DDoS Protection或Azure Firewall的設置，但由於此Lab聚焦於ASR，<br>
 
    因此這邊直接點選「檢閱 + 建立」。<br>
 
