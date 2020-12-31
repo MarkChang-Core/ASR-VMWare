@@ -19,3 +19,7 @@
   然後將範本匯入 VMware 以建立 VM。<br>
 
 ## 下載 VM 範本
+
+Step 1. 在Site Recovery保存庫中，選擇左側刀鋒視窗(Blade) > Site Recovery 基礎結構，並選擇其中的「對於VMWare與實體機器」 > 「Configuration Servers」。
+
+![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/lab6.jpg)
