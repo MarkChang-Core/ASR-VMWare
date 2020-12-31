@@ -42,6 +42,8 @@
 
      ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/lab5.jpg)
 
-5. 在安全性中可選擇是否啟用Azure Bastion、DDoS Protection或Azure Firewall的設置，但由於此Lab聚焦於ASR，因此這邊直接點選「檢閱 + 建立」。<br>
+5. 在安全性中可選擇是否啟用Azure Bastion、DDoS Protection或Azure Firewall的設置，但由於此Lab聚焦於ASR，<>
+
+   因此這邊直接點選「檢閱 + 建立」。<br>
 
 開始設置Azure Site Recovery 保存庫，請[前往 Lab 2](https://github.com/MarkChang-Core/ASR-VMWare/edit/main/Lab1.md)開始。<br>
