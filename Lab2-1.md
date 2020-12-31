@@ -30,5 +30,13 @@ Step 2. 點選「+ 伺服器」後，確認「伺服器類型」中為「VMWare�
 
 ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/lab7.jpg)
 
+  註：此處為翻譯問題，設定伺服器即為組態伺服器，原文為Configuration Servers
+
 ## 在VMWare中匯入組態伺服器OVF範本
+
+Step 1. 透過VMWare vSphere Client端登入VMWare vCenter或vSphere ESXi。<br>
+
+Step 2. 在檔案(File)中，選取佈署OVF範本(Deploy OVF Templete)以啟動「佈署OVF範本精靈」。<br>
+
+![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/lab8.jpg)
 
