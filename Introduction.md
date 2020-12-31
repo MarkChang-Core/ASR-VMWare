@@ -11,10 +11,13 @@ Azure Site Recovery 服務可藉由協調虛擬機器與實體伺服器的複寫
 - 將 AWS Windows 執行個體複寫到 Azure。<br>
 - 將 System Center VMM 管理的內部部署 VMware VM、Hyper-V VM 和實體伺服器複寫至次要站台。<br>
 
-## Azure Site Recovery 的架構圖
+## Azure Site Recovery (Azure VM to Azure VM)的架構圖
 
 ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/architect1.jpg)
 
- > **Tips.如果** <br>
- 
- 完成後，請[前往 Lab1-2](https://g)。<br>
+
+## Azure Site Recovery (VMWare to Azure VM)的架構圖
+
+![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/architect2.jpg)
+
+建立復原服務保存庫，請[前往 Lab1](https://g)。<br>
