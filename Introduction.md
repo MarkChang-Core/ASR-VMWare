@@ -28,4 +28,4 @@ Azure Site Recovery 服務可藉由協調虛擬機器與實體伺服器的複寫
 
 ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/architect1.1.jpg)
 
-建立復原服務保存庫，請[前往 Lab1-1](https://g)開始。<br>
+建立復原服務保存庫，請[前往 Lab1-1](https://github.com/MarkChang-Core/ASR-VMWare/edit/main/Lab1.md)開始。<br>
