@@ -42,6 +42,7 @@ Step 5. 在IP位址中，輸入網路範圍，此Lab範例中建立為 10.0.0.0/
 ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/lab5.jpg)
 
 Step 6. 在安全性中可選擇是否啟用Azure Bastion、DDoS Protection或Azure Firewall的設置，但由於此Lab聚焦於ASR，<br>
-        因此這邊直接點選「檢閱 + 建立」。<br>
+        
+        </br>因此這邊直接點選「檢閱 + 建立」。<br>
 
 開始設置Azure Site Recovery 保存庫與VMWare複寫設定，請[前往 Lab 2-1](https://github.com/MarkChang-Core/ASR-VMWare/edit/main/Lab2-1.md)開始。<br>
