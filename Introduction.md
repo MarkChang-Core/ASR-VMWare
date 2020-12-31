@@ -1,8 +1,14 @@
 # Azure Site Recovery架構環境說明
 
-Azure Site Recovery 服務可藉由協調虛擬機器與實體伺服器的複寫、容錯移轉及復原 (BCDR) 策略，平時地端主機可以使用複寫Azure Site Recovery服務至 Azure，<br>
-地端的主機因不可抗拒之因素而停止服務時，便可使用Azure Site Recover容錯移轉將開啟複寫至Azure 的VM來繼續服務，等地端主機復原後，<br>
-使用Azure Site Recovery容錯移轉將Azure的VM複寫到地端的主機，為您的商務持續性與災害復原做出貢獻。<br>
+Azure Site Recovery 服務可藉由協調虛擬機器與實體伺服器的複寫，進行容錯移轉及復原 (BCDR) 策略。<br>
+
+一般而言，地端主機(On-premise, On-pre) 可以透過複寫Azure Site Recovery服務至 Azure，<br>
+
+當On-pre的主機因不可抗拒之因素而停止供應服務時，便可利用Azure Site Recover容錯移轉、開啟複寫至Azure 的VM來繼續供應服務，<br>
+
+待地端主機復原後，同樣再透過Azure Site Recovery容錯移轉將Azure VM複寫回到On-pre的主機，<br>
+
+為您的商務持續性與災害復原做出貢獻。<br>
 
 ## Azure Site Recovery可以複寫哪些項目?
 
