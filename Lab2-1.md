@@ -40,3 +40,14 @@ Step 2. 在檔案(File)中，選取佈署OVF範本(Deploy OVF Templete)以啟動
 
 ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/lab8.jpg)
 
+Step 3. 在「選取來源」上，選擇方才下載的OVF範本位置。
+
+Step 4. 在「檢閱詳細資料」上，直接選取「下一步」。
+
+Step 5. 在「選取名稱和資料夾」、「選取組態」中，直接接受預設設定。
+
+Step 6. 在「選取儲存體」上，於「選取虛擬磁碟格式」中，請選擇為「Thick Provision Eager Zeroed」，以達到最佳效能。
+
+Step 7. 在範本精靈中的其他設置步驟頁面中，均已預設值選定後並執行「下一步」。
+
+Step 8. 在「準備完成」頁面中，若使用為預設值設定VM，請選取「在佈署後開啟電源」，並點選「完成」。
