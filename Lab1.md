@@ -6,7 +6,7 @@
 
 因此我們會先為其建立一個保存庫，而ASR的保存庫除了具備儲存的功能外，也具有協調與調整的控制介面。
 
-1. 在[Azure Portal](https://portal.azure.com)中，搜尋 Recovery Services，並選擇「Recovery Services 保存庫」。<br>
+1. 在[Azure Portal](https://portal.azure.com)中，搜尋「Recovery Services」，並選擇「Recovery Services 保存庫」。<br>
 
      ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/lab1.jpg)
 
@@ -20,8 +20,12 @@
 
 ## 建立 Azure Network
 
-無論來源伺服器是On-pre或是Cloud的VM，均會被複製到Azure受控磁碟，而當災難發生需要執行故障轉移時，便會透過這些受控磁碟建立Azure VM，
+無論來源伺服器是On-pre或是Cloud的VM，均會被複製到Azure受控磁碟，而當災難發生需要執行故障轉移時，<br>
 
-而這個建立的過程將會選擇預先配置好的Azure Network。
+便會透過這些受控磁碟建立Azure VM，而這個建立的過程將會選擇預先配置好的Azure Network。<br>
 
-1. 在Azure Portal中
+1. 在[Azure Portal](https://portal.azure.com)中，搜尋「Network」，並選擇「虛擬網路」<br>
+
+     ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/lab3.jpg)
+
+2. 
