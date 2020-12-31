@@ -2,7 +2,7 @@
 
 在您的來源環境中，您需要單一、高可用性、內部部署的電腦來下列裝載 Site Recovery 元件，這些元件包含有：<br>
 
-- 組態伺服器︰組態伺服器會協調內部部署與 Azure 之間的通訊，以及管理資料複寫。<br>
+- 組態伺服器(Configuration Servers)︰組態伺服器會協調內部部署與 Azure 之間的通訊，以及管理資料複寫。<br>
 
 - 處理序伺服器：處理序伺服器可作為複寫閘道。 負責接收複寫資料，以快取、壓縮和加密進行最佳化，<br>
 
@@ -20,6 +20,15 @@
 
 ## 下載 VM 範本
 
-Step 1. 在Site Recovery保存庫中，選擇左側刀鋒視窗(Blade) > Site Recovery 基礎結構，並選擇其中的「對於VMWare與實體機器」 > 「Configuration Servers」。
+Step 1. 在Site Recovery保存庫中，選擇左側刀鋒視窗(Blade) > Site Recovery 基礎結構，<br>
+
+並選擇其中的「對於VMWare與實體機器」 > 「Configuration Servers」。<br>
 
 ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/lab6.jpg)
+
+Step 2. 點選「+ 伺服器」後，確認「伺服器類型」中為「VMWare的設定伺服器」後，選擇「下載範本」。
+
+![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/lab7.jpg)
+
+## 在VMWare中匯入組態伺服器OVF範本
+
