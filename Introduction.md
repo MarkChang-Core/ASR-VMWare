@@ -4,11 +4,13 @@ Azure Site Recovery 服務可藉由協調虛擬機器與實體伺服器的複寫
 
 一般而言，地端主機(On-premise, On-pre) 可以透過複寫Azure Site Recovery服務至 Azure，<br>
 
-當On-pre的主機因不可抗拒之因素而停止供應服務時，便可利用Azure Site Recover容錯移轉、開啟複寫至Azure 的VM來繼續供應服務，<br>
+當On-pre的主機因不可抗拒之因素而停止供應服務時，便可利用Azure Site Recover容錯移轉，
 
-待地端主機復原後，同樣再透過Azure Site Recovery容錯移轉將Azure VM複寫回到On-pre的主機，<br>
+開啟複寫至Azure 的VM來繼續供應服務。
 
-為您的商務持續性與災害復原做出貢獻。<br>
+當地端主機復原正常後，同樣再透過Azure Site Recovery容錯移轉將Azure VM複寫回到On-pre的主機，<br>
+
+為您的事業連續性計畫(Business Continuity Plan, BCP)中的災害復原(Disaster Recovery, DR)做出貢獻。<br>
 
 ## Azure Site Recovery可以複寫哪些項目?
 
