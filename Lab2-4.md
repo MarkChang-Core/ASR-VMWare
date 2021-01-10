@@ -40,17 +40,19 @@
 
   ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/image29.jpg)<br>
 
-- 最後，選取「啟用複寫」。 Site Recovery 會在 VM 已啟用複寫時安裝行動服務。<br>
+- 最後，選取「啟用複寫」，當複寫啟用完成後，可以在套用複寫的VM中看到Agent已正確被安裝完成。<br>
 
-- 您可以在 [復原服務保存庫] > [監視] > [Site Recovery 作業] 中，追蹤 [啟用保護] 作業的進度。<br>
+  ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/image30.jpg)<br>
 
-- 執行 [完成保護] 作業之後，機器即準備好進行容錯移轉。<br>
-  
+- 當然，到「已複寫的項目」中，也可以看到方才的VM已經正常依據複寫原則同步中。<br>
+
+  註：可能需要 15 分鐘或更久的時間，變更才會生效並顯示「已複寫的項目」中。<br>
+
+  ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/image31.jpg)<br>
+
+- 您可以在「Site Recovery 作業」中，追蹤「啟用保護」作業的狀態與進度。<br>
+ 
   ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/lab15.jpg)<br>
-  
-- 可能需要 15 分鐘或更久的時間，變更才會生效並顯示[已複寫的項目]中。<br>
-
-  ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/lab16.jpg)<br>
   
 完成後前往下一步 [Lab 3](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Lab3.md) 測試容錯移轉。
   
