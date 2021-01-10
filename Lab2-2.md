@@ -92,8 +92,8 @@
   
   然後選取 [確定] 以設定目標設定。<br>
   
-  ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/lab10.jpg)<br>
+  ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/image21.jpg)<br>
 
-**註：可能需要 15 分鐘以上，帳戶名稱才會出現在入口網站。 若要立即更新，請選取 [設定伺服器] > 伺服器名稱 > [重新整理伺服器]。**
+  **註：可能需要 15 分鐘以上，帳戶名稱才會出現在入口網站。**
 
 完成後前往下一步 [Lab 2-3](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Lab2-3.md) 建立複寫原則。
