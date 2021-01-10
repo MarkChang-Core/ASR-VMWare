@@ -20,37 +20,50 @@
 
 ## 下載 VM 範本
 
-Step 1. 在Site Recovery保存庫中，選擇左側刀鋒視窗(Blade) > Site Recovery 基礎結構，<br>
+- 在Site Recovery保存庫中，選擇左側刀鋒視窗(Blade) > Site Recovery 基礎結構，<br>
+  
+  並選擇其中的「對於VMWare與實體機器」 > 「Configuration Servers」。<br>
 
-並選擇其中的「對於VMWare與實體機器」 > 「Configuration Servers」。<br>
+  ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/lab6.jpg)<br>
 
-![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/lab6.jpg)
+- 點選「+ 伺服器」後，確認「伺服器類型」中為「VMWare的設定伺服器」後，選擇「下載範本」。<br>
 
-Step 2. 點選「+ 伺服器」後，確認「伺服器類型」中為「VMWare的設定伺服器」後，選擇「下載範本」。
+  ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/lab7.jpg)<br>
 
-![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/lab7.jpg)
-
-  註：此處為翻譯問題，設定伺服器即為組態伺服器，原文為Configuration Servers
+  註：此處為翻譯問題，設定伺服器即為組態伺服器，原文為Configuration Servers。<br>
 
 ## 在VMWare中匯入組態伺服器OVF範本
 
-Step 1. 透過VMWare vSphere Client端登入VMWare vCenter或vSphere ESXi。<br>
+- 透過VMWare vSphere Client端登入VMWare vCenter或vSphere ESXi。<br>
 
-Step 2. 在檔案(File)中，選取佈署OVF範本(Deploy OVF Templete)以啟動「佈署OVF範本精靈」。<br>
+  ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/image1.jpg)<br>
 
-![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/lab8.jpg)
+- 在需要部署的機器中，點擊滑鼠右鍵選取 Deploy OVF Templete 以啟動「佈署OVF範本精靈」。<br>
 
-Step 3. 在「選取來源」上，選擇方才下載的OVF範本位置。
+  ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/image2.jpg)<br>
 
-Step 4. 在「檢閱詳細資料」上，直接選取「下一步」。
+  ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/image3.jpg)<br>
 
-Step 5. 在「選取名稱和資料夾」、「選取組態」中，直接接受預設設定。
+- 在「Local file」上，選擇方才下載的 OVF Templete 路徑與檔案後，點擊「Next」。<br>
 
-Step 6. 在「選取儲存體」上，於「選取虛擬磁碟格式」中，請選擇為「Thick Provision Eager Zeroed」，以達到最佳效能。
+- 在「Select a name and folder」中，輸入希望建立的VM名稱後，點擊「Next」。<br>
 
-Step 7. 在範本精靈中的其他設置步驟頁面中，均已預設值選定後並執行「下一步」。
+  ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/image4.jpg)<br>
 
-Step 8. 在「準備完成」頁面中，若使用為預設值設定VM，請選取「在佈署後開啟電源」，並點選「完成」。
+- 在「Select a compute resource」中，直接點選「Next」。
 
+- 在「Review details」中，確認部署資訊無誤後，點選「Next」。
 
-完成後前往下一步 [Lab 2-2](https://github.com/MarkChang-Core/ASR-VMWare/edit/main/Lab2-2.md) 繼續註冊組態伺服器。
+  ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/image5.jpg)<br>
+
+- 在「Select storage」中，將 Virtual Disk formay 調整為「Thin Provision」後，點選「Next」。<br>
+
+  註：你也可以選擇「Thick Provision Eager Zeroed」，以達到最佳效能。<br>
+
+  ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/image6.jpg)<br>
+
+- 在「Select networks」中，直接點選「Next」。<br>
+
+- 在「Ready to complete」中，直接點選「Next」。<br>
+
+等待Deploy完成後，前往下一步 [Lab 2-2](https://github.com/MarkChang-Core/ASR-VMWare/edit/main/Lab2-2.md) 繼續註冊組態伺服器。
