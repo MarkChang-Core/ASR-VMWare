@@ -53,4 +53,4 @@ Step 7. 在範本精靈中的其他設置步驟頁面中，均已預設值選定
 Step 8. 在「準備完成」頁面中，若使用為預設值設定VM，請選取「在佈署後開啟電源」，並點選「完成」。
 
 
-完成後前往下一步 [Lab 2-2]()
+完成後前往下一步 [Lab 2-2](https://github.com/MarkChang-Core/ASR-VMWare/edit/main/Lab2-2.md) 繼續註冊組態伺服器。
