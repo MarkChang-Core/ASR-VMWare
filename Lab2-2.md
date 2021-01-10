@@ -70,27 +70,28 @@
   
   確認探索到的 VMware VM 無誤後，選取「Continue」。<br>
 
-
-
-
-
-
-- 在 [設定虛擬機器認證] 中，輸入將用於在 VM 上自動安裝行動服務的使用者名稱和密碼 (已啟用複寫時)。<br>
-
+- 在「Configure virtual machine credentials」中，點選「Add virtual machine credentials」，請留意 -<br>
+  
   - 若為 Windows 電腦，此帳戶需具備您要複寫之機器的本機系統管理員權限。<br>
 
   - 若為 Linux，請提供根帳戶的詳細資料。<br>
   
-- 選取 [完成設定] 以完成註冊。<br>
+  輸入完成後，點選「Add」，回到主頁面後，點選「Continue」。<br>
   
-  ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/lab9.jpg)<br>
-  
-- 此工具會執行一些設定工作，而後重新開機。<br>
+  ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/image17.jpg)<br>
 
+  ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/image18.jpg)<br>
+
+- 點選「Finalize configuration」以完成所有配置，。<br>
+  
+  ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/image19.jpg)<br>
+  
+  ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/image20.jpg)<br>
+  
 - 註冊完成後，在 Azure 入口網站中確認組態伺服器和 VMware 伺服器都已列在保存庫中的 [來源] 頁面上。<br>
   
   然後選取 [確定] 以設定目標設定。<br>
-
+  
   ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/lab10.jpg)<br>
 
 **註：可能需要 15 分鐘以上，帳戶名稱才會出現在入口網站。 若要立即更新，請選取 [設定伺服器] > 伺服器名稱 > [重新整理伺服器]。**
