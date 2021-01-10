@@ -28,4 +28,6 @@ Azure Site Recovery 服務可藉由協調虛擬機器與實體伺服器的複寫
 
 ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/architect1.1.jpg)
 
-開始設置Azure 基本環境，請[前往 Lab 1](https://github.com/MarkChang-Core/ASR-VMWare/edit/main/Lab1.md)進行。<br>
+您可以參考Anthony Clendenen提供的 [AzureSiteRecoverySetup](https://github.com/anthonyonazure/AzureSiteRecoverySetup)透過PowerShell啟用，
+
+也可以按照Hands on Lab 開始設置Azure 基本環境 [前往 Lab 1](https://github.com/MarkChang-Core/ASR-VMWare/edit/main/Lab1.md)進行。<br>
