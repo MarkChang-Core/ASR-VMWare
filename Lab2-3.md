@@ -14,7 +14,7 @@
 
   - 在 [應用程式一致快照集頻率] 中，指定建立應用程式一致快照集的頻率。 我們會使用預設值 60 分鐘。 選取 [確定] 以建立原則。<br>
   
-  ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/image22.jpg)<br>
+  ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/image23.jpg)<br>
   
 - 此原則會自動與設定伺服器產生關聯。<br>
 
