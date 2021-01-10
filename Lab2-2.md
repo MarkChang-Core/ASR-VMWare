@@ -53,5 +53,7 @@
 - 註冊完成後，在 Azure 入口網站中確認組態伺服器和 VMware 伺服器都已列在保存庫中的 [來源] 頁面上。<br>
   
   然後選取 [確定] 以設定目標設定。<br>
-  
-  
+
+  ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/lab10.jpg)<br>
+
+**註：可能需要 15 分鐘以上，帳戶名稱才會出現在入口網站。 若要立即更新，請選取 [設定伺服器] > 伺服器名稱 > [重新整理伺服器]。**
