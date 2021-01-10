@@ -1,42 +1,79 @@
-# 安裝組態伺服器
+# 設定 Configuration Server
 
-組態伺服器設定好後，您可在保存庫中加以註冊。從 VMWare vSphere 用戶端開啟VM主控台。<br>
+### 安裝 Configuration Server
 
-- VM 會開機進入 Windows Server 2016 安裝體驗。 接受授權合約，並輸入系統管理員密碼。<br>
-
+- VM 會開機進入 Windows Server 2016 安裝體驗。 接受授權合約，並建立系統管理員密碼。<br>
+  
+  ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/image7.jpg)<br>
+  
+  ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/image8.jpg)<br>
+  
 - 在安裝完成之後，以系統管理員身分登入 VM。<br>
 
 - 您第一次登入時，Azure Site Recovery 設定工具會在數秒內啟動。<br>
 
 - 輸入用來向 Site Recovery 註冊設定伺服器的名稱。 然後，選取 [下一步]。<br>
 
+  ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/image9.jpg)<br>
+
 - 建立連線之後，選取[登入]以登入您的 Azure 訂用帳戶，認證必須能夠存取您要在其中註冊組態伺服器的保存庫。<br>
 
-- 在設定伺服器管理精靈中，選取 [設定連線]。
-
-- 從下拉式清單中，先選取內建處理序伺服器用來在來源機器上，進行行動服務探索及推入安裝的 NIC，<br>
+  ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/image10.jpg)<br>
   
-  然後選取設定伺服器用來與 Azure 連線的 NIC。 然後選取 [儲存]。<br>
+  接下來會進入配置機器名稱、配置身分至Azure AD以及設定Configuration Server的自動設定過程，完成後將自動重啟。<br>
+
+### 設定 Configuration Server
+
+- 重啟完成後，透過系統管理員身分登入，登入後預設將會自動透過 IE 開啟 Configuration Server設定精靈。<br>
+
+  ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/image11.jpg)<br>
+
+- 確認「NIC」的資訊，選取 Configuration Server 與 Azure 連線使用的 NIC，確認無誤後，點選「Save」。<br>
+   
+  ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/image12.jpg)<br>
   
-  註：一旦進行此設定之後便無法變更。<br>
+- 在「Select Recovery Services vault」中，點選「Click to Sign in」，登入 Azure 帳號後，允許 Premission，<br>
 
-- 在 [選取復原服務保存庫] 中，選取您的 Azure 訂用帳戶及相關的資源群組和保存庫。<br>
+  並選擇正確的訂閱與RG資訊，此處請特別留意 **一旦設定完成後即無法變更**，設定完成後點選「Continue」。<br>
 
-- 在 [安裝第三方軟體] 中，接受授權合約。 選取 [下載並安裝] 以安裝 MySQL Server。 如果您在路徑中放置 MySQL，則可略過此步驟。 <br>
+  ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/image13.jpg)<br>
+ 
+- 在「Install third-party software」中，接受授權合約，並選取「Download and install」以安裝 MySQL，<br>
 
-- 選取 [安裝 VMware PowerCLI] 。 在您執行這項作業之前，確定所有瀏覽器視窗都已關閉。 然後選取 [繼續] 。<br>
+  安裝完成後點選「Continue」。<br>
 
-- 在 [驗證設備設定] 中，必要條件會在您繼續之前進行驗證。<br>
+  註：如果您在路徑中放置 MySQL，則可略過此步驟。<br>
 
-- 在 [設定 vCenter 伺服器/vSphere ESXi 伺服器] 中，輸入 vCenter 伺服器或 vSphere 主機 (您要複寫的 VM 位於其上) 的 FQDN 或 IP 位址。<br>
+  ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/image14.jpg)<br>
 
-  輸入伺服器所接聽的連接埠。 輸入要用於保存庫中 VMware 伺服器的易記名稱。<br>
+- 在「Validate appliance configuration」中，將會自動驗證您的配置，這將會需要一些時間等待，完成後點選「Continue」。<br>
 
-- 輸入可供設定伺服器用來連線至 VMware 伺服器的使用者認證。 請確定使用者名稱和密碼都正確無誤，<br>
+  ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/image14.jpg)<br>
+
+- 在「Configure vCenter Server/vSphere ESXi server credentials」中，點選「Add vCenter Server/vSphere ESXi server」，接著 - 。<br>
+
+  - 輸入 vCenter Server 或 vSphere Server (準備複寫之 VM) 的 Server name 或 IP Address。<br>
+
+  - 輸入伺服器所接聽的連接埠。<br>
   
-  且屬於所要保護虛擬機器的 Administrators 群組。 <br>
+  - 輸入要用於保存庫中 VMware 伺服器的好記名稱。<br>
 
-  Site Recovery 會使用這些認證來自動探索可用於複寫的 VMware VM。 選取 [新增] ，然後選取 [繼續] 。<br>
+  - 輸入可供設定伺服器用來連線至 VMware 伺服器的使用者認證。<br>
+    
+    (請確定使用者名稱和密碼都正確無誤，且屬於所要保護虛擬機器的 Administrators 群組。) <br>
+
+  Azure Site Recovery 會使用這些資訊進行自動探索可用於複寫的 VMware VM。<br>
+  
+  ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/image15.jpg)<br>
+  
+  ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/image16.jpg)<br>
+  
+  確認探索到的 VMware VM 無誤後，選取「Continue」。<br>
+
+
+
+
+
 
 - 在 [設定虛擬機器認證] 中，輸入將用於在 VM 上自動安裝行動服務的使用者名稱和密碼 (已啟用複寫時)。<br>
 
