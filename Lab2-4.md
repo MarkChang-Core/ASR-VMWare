@@ -14,7 +14,7 @@
 
   - 選取 處理序伺服器 (依預設安裝在組態伺服器 VM 上)。然後選取「確定」。<br>
 
-  [GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/image25.jpg)<br>
+  ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/image25.jpg)<br>
   
 - 在「目標」中，選取您想要在其中建立容錯移轉 VM 的訂用帳戶和資源群組。 
 
