@@ -22,7 +22,7 @@
 
 - 在 [選取復原服務保存庫] 中，選取您的 Azure 訂用帳戶及相關的資源群組和保存庫。<br>
 
-- 在 [安裝第三方軟體] 中，接受授權合約。<br>
+- 在 [安裝第三方軟體] 中，接受授權合約。 選取 [下載並安裝] 以安裝 MySQL Server。 如果您在路徑中放置 MySQL，則可略過此步驟。 <br>
 
 - 選取 [安裝 VMware PowerCLI] 。 在您執行這項作業之前，確定所有瀏覽器視窗都已關閉。 然後選取 [繼續] 。<br>
 
@@ -44,12 +44,14 @@
 
   - 若為 Linux，請提供根帳戶的詳細資料。<br>
   
-  ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/lab9.jpg)
-
 - 選取 [完成設定] 以完成註冊。<br>
-
+  
+  ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/lab9.jpg)<br>
+  
 - 此工具會執行一些設定工作，而後重新開機。<br>
 
 - 註冊完成後，在 Azure 入口網站中確認組態伺服器和 VMware 伺服器都已列在保存庫中的 [來源] 頁面上。<br>
   
   然後選取 [確定] 以設定目標設定。<br>
+  
+  
