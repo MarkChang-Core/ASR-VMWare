@@ -66,4 +66,4 @@
 
 - 在「Ready to complete」中，直接點選「Next」。<br>
 
-等待Deploy完成後，前往下一步 [Lab 2-2](https://github.com/MarkChang-Core/ASR-VMWare/edit/main/Lab2-2.md) 繼續註冊組態伺服器。
+等待Deploy完成後，前往下一步 [Lab 2-2](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Lab2-2.md) 繼續註冊組態伺服器。
