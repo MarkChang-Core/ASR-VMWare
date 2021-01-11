@@ -38,7 +38,18 @@
   
   - 如果在子網路中無法使用相同的 IP 位址，則 VM 會接收子網路中另一個可用的 IP 位址。 <br>
   
-4.	如果您正在容錯移轉到 Azure 且已啟用資料加密，請在 [加密金鑰] 中，選取當您在提供者安裝期間啟用加密時所發出的憑證。 如果未啟用加密，您可以忽略此步驟。
-5.	在 [監視]>[Site Recovery作業]中，[工作]上追蹤容錯移轉進度。您應該可以在 Azure 入口網站中看到測試複本機器。
-6.	若要在 Azure VM 上初始化 RDP 連線，您必須在容錯移轉之 VM 的網路介面上新增公用 IP 位址。新增完畢後就可以按下[連接]，用RDP 連線到Windows VM中。
-7.	當一切都如預期般運作時，請按一下 [清除測試容錯移轉]。 這樣會刪除在測試容錯移轉期間所建立的 VM。
+- 點選「完成」後，即開始進行容錯移轉測試。<br>
+
+- 在「Site Recovery作業」> 「工作」中，您可以追蹤容錯移轉進度。<br>
+
+  ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/image34.jpg)<br>
+
+- 同時，您應該可以在 Azure Portal中，找到使用來測試的複本機器。<br>
+
+- 若要在 Azure VM 上初始化 RDP/SSH 連線，您必須在容錯移轉之 VM 的網路介面上新增公用 IP 位址。
+
+- 新增完畢後就可以按下「連接」，用 RDP/SSH 連線到 Windows/Linux VM 中。
+
+- 當一切都如預期般運作時，請按一下「清除測試容錯移轉」。 這樣會刪除在測試容錯移轉期間所建立的 Azure VM 資源。
+  
+  ![GITHUB](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Image/image35.jpg)<br>
