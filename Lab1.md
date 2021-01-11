@@ -46,4 +46,4 @@
   
   因此這邊直接點選「檢閱 + 建立」。<br>
 
-開始設置Azure Site Recovery 保存庫與VMWare複寫設定，請[前往 Lab 2-1](https://github.com/MarkChang-Core/ASR-VMWare/edit/main/Lab2-1.md)開始。<br>
+開始設置Azure Site Recovery 保存庫與VMWare複寫設定，請[前往 Lab 2-1](https://github.com/MarkChang-Core/ASR-VMWare/blob/main/Lab2-1.md)開始。<br>
